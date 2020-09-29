@@ -55,3 +55,5 @@ this changes the default color of flutter icons
 create a file 
 # double.infinity
 To occupy the whole width or height , I use double.infinity
+# sized box 
+creates a space between two inputs
