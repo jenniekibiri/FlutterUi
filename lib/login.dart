@@ -75,23 +75,32 @@ class LoginPage extends StatelessWidget {
                         )),
                   ),
                 ),
-                Expanded(
+                 Expanded(
                   child: Padding(
                     padding: const EdgeInsets.only(
                         left: 10.0, right: 20.0, top: 10.0),
-                    child: new Container(
+                    child:  Container(
                         alignment: Alignment.center,
                         height: 60.0,
-                        decoration: new BoxDecoration(
-                            color: Color(0xFFDF513B),
-                            borderRadius: new BorderRadius.circular(9.0)),
-                        child: new Text("Google",
-                            style: new TextStyle(
-                                fontSize: 20.0, color: Colors.white))),
+                        child: Text("Forgot Password?",
+                            style:  TextStyle(
+                                fontSize: 17.0, color: Color(0xFF18D191)))),
                   ),
                 )
               ],
-            )
+            ),
+             Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: <Widget>[
+                  Padding(
+                    padding: const EdgeInsets.only(bottom:18.0),
+                    child: new Text("Create A New Account ",style: new TextStyle(
+                                fontSize: 17.0, color: Color(0xFF18D191),fontWeight: FontWeight.bold)),
+                  ),
+                ],
+              ),
+)
           ],
         ),
       ),
