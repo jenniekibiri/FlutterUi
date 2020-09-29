@@ -39,9 +39,19 @@ mainAxisalignment property or the crossaxisalignment property
 overlapping widgets 
 
 # box decoration
-provides diffent ways to draw a box
+provides diffent ways to draw a box.
 
 # expanded
-makes the row,column or flex fill the available space along the main axiz
+makes the row,column or flex fill the available space along the main axis.
 
-
+# gesture detector
+takes  ontap 
+# on tap
+# navigator
+move to the next page on tap
+# icon  theme data 
+this changes the default color of flutter icons 
+# reusing widgets
+create a file 
+# double.infinity
+To occupy the whole width or height , I use double.infinity
