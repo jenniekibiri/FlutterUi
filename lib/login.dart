@@ -15,7 +15,9 @@ class LoginPage extends StatelessWidget {
       body: Container(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
-          children: <Widget>[StackedIcons()],
+          children: <Widget>[
+            StackedIcons()
+            ],
         ),
       ),
     );
