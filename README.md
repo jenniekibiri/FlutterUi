@@ -57,3 +57,6 @@ create a file
 To occupy the whole width or height , I use double.infinity
 # sized box 
 creates a space between two inputs
+# stateful widgets have data that changes over time
+you can convert a stateless widget to a statefull widget
+# lIstview 

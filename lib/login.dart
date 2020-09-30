@@ -35,7 +35,7 @@ class LoginPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
               child: TextField(
-                obscureText: true,
+          
                 decoration: InputDecoration(labelText: 'Email'),
               ),
             ),
@@ -58,7 +58,7 @@ class LoginPage extends StatelessWidget {
                         left: 20.0, right: 5.0, top: 10.0),
                     child: new Container(
                         alignment: Alignment.center,
-                        height: 60.0,
+                        height: 60.0, 
                         decoration: new BoxDecoration(
                             color: Color(0xFF18D191),
                             borderRadius: new BorderRadius.circular(9.0)),
@@ -100,7 +100,7 @@ class LoginPage extends StatelessWidget {
                   ),
                 ],
               ),
-)
+              )
           ],
         ),
       ),
